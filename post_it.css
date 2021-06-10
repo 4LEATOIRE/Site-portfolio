@@ -1,0 +1,49 @@
+h1 {
+    font-family: 'Margaret';
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 90px;
+    width: 60px;
+    transform: rotate(-90deg);
+    margin-top: 150px;
+    margin-left: 60px;
+    white-space: nowrap;
+}
+
+
+/*menu du haut*/
+
+ul {
+    padding: 15px;
+    margin: 0;
+}
+
+.container {
+    display: inline-block;
+}
+
+#sections {
+    font-family: 'Margaret';
+    font-size: 30px;
+    list-style: none;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+#sections li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: all 1s ease;
+    padding: 20px;
+    color: #ffffffb4;
+}
+
+#sections li a:hover {
+    color: solid rgb(209, 194, 153);
+    transform: scale(1.1);
+    transition: all .75s ease;
+    cursor: pointer;
+}

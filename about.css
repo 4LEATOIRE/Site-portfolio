@@ -1,0 +1,120 @@
+h1 {
+    font-family: 'Margaret';
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 90px;
+    width: 60px;
+    transform: rotate(-90deg);
+    margin-top: 110px;
+    margin-left: 60px;
+}
+
+.contenu {
+    padding-left: 680px;
+    padding-right: 150px;
+    padding-top: 0px;
+    padding-bottom: 100px;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 30px 20px 20px 20px;
+    line-height: 35px;
+    text-align: justify
+}
+
+
+/* gallerie photo */
+
+img {
+    width: 40%;
+    height: 40%;
+}
+
+.photo1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.texte1 {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 25px;
+    font-weight: lighter;
+    padding-right: 10%;
+    padding-left: 10%;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+}
+
+.photo2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.texte2 {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 25px;
+    font-weight: lighter;
+    padding-right: 10%;
+    padding-left: 10%;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+}
+
+.photo3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.texte3 {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 25px;
+    font-weight: lighter;
+    padding-right: 10%;
+    padding-left: 10%;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+}
+
+
+/*menu du haut*/
+
+ul {
+    padding: 15px;
+    margin: 0;
+}
+
+.container {
+    display: inline-block;
+}
+
+#sections {
+    font-family: 'Margaret';
+    font-size: 30px;
+    list-style: none;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+#sections li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: all 1s ease;
+    padding: 20px;
+    color: #ffffffb4;
+}
+
+#sections li a:hover {
+    color: solid rgb(209, 194, 153);
+    transform: scale(1.1);
+    transition: all .75s ease;
+    cursor: pointer;
+}

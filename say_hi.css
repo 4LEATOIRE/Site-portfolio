@@ -1,0 +1,132 @@
+body {
+    background-color: #1E212F;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Margaret';
+    src: url(Margaret.otf) format('otf');
+}
+
+h1 {
+    font-family: 'Margaret';
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 90px;
+    width: 60px;
+    transform: rotate(-90deg);
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 0px;
+    white-space: nowrap;
+}
+
+
+/*menu du haut*/
+
+ul {
+    padding: 15px;
+    margin: 0;
+}
+
+.container {
+    display: inline-block;
+}
+
+#sections {
+    font-family: 'Margaret';
+    font-size: 30px;
+    list-style: none;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+#sections li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: all 1s ease;
+    padding: 20px;
+    color: #ffffffb4;
+}
+
+#sections li a:hover {
+    color: solid rgb(209, 194, 153);
+    transform: scale(1.1);
+    transition: all .75s ease;
+    cursor: pointer;
+}
+
+
+/*footer*/
+
+.footer {
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.pieds {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -510px;
+    margin-top: 250px;
+}
+
+.haut {
+    color: #7f89b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 70px;
+    margin-left: 220px;
+    transition: all 1s ease;
+}
+
+.haut a:hover {
+    color: #9baeff;
+    transform: scale(1.1);
+    transition: all .75s ease;
+}
+
+
+/* Formulaire */
+
+.formulaire {
+    width: 35%;
+    margin: auto;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    resize: vertical;
+    min-height: 20px;
+}
+
+input[type=submit],
+input[type="reset"] {
+    cursor: pointer;
+    background-color: #4c5eaf;
+    color: white;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover,
+input[type="reset"]:hover {
+    background-color: #4c5eaf;
+}

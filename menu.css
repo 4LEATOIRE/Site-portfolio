@@ -1,0 +1,60 @@
+body {
+    background-color: #3E424D;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'Margaret';
+    src: url(Margaret.otf) format('otf');
+}
+
+
+/*menu*/
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.menu_content {
+    opacity: 1;
+    transform: scale(0.8) translate3D(0, -20px, 0);
+    transition: opacity 0.2s, transform 0.8s cubic-bezier(.09, .52, .25, 1);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
+#sections {
+    font-family: 'Margaret';
+    font-size: 150px;
+    list-style: none;
+    text-align: center;
+}
+
+#sections li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: all 1s ease;
+    padding: 20px;
+    color: #ffffffb4;
+}
+
+#sections li a:hover {
+    color: solid rgb(209, 194, 153);
+    transform: scale(1.1);
+    transition: all .75s ease;
+}

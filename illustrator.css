@@ -1,0 +1,56 @@
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Margaret';
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 90px;
+    width: 60px;
+    transform: rotate(-90deg);
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 0px;
+    white-space: nowrap;
+}
+
+h1 a {
+    transition: all 1s ease;
+}
+
+h1 a:hover {
+    color: #9baeff;
+    transform: scale(1.1);
+    transition: all .75s ease;
+}
+
+img {
+    width: 40%;
+    padding: 5%;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+}
+
+.texte1,
+.texte2,
+.texte3 {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.photo1,
+.photo2,
+.photo3 {
+    text-align: center;
+    display: block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float: center;
+}
